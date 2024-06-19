@@ -29,7 +29,7 @@ void encrypt(char *plaintext, int key) {
 
 int main(void) {
     char plaintext[1000];
-    printf("Enter your plantext: ");
+    printf("Enter your plaintext: ");
     scanf(" %[^\n]s", plaintext);
 
     int key;
@@ -37,7 +37,7 @@ int main(void) {
     scanf("%d", &key);
 
     encrypt(plaintext, key);
-    printf("Enrypted test is: %s\n", plaintext);
+    printf("Enrypted text is: %s\n", plaintext);
 
     return EXIT_SUCCESS;
 }
